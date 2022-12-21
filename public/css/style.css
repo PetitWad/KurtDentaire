@@ -1,0 +1,100 @@
+body{
+    background-image: url('../images/3.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+#navbarNav
+{
+    font-size: 1.1em;
+}
+
+.nav-link
+{
+    color: green;
+    width: auto;
+    text-align: center;
+}
+
+.nav-link:hover
+{
+    border-bottom: 3px solid #1da3c9;
+    width: auto;
+}
+
+.nav-link:active
+{
+    border-radius: .5em;
+    background-color: #1da3c9;
+    color: white;
+    width: auto;
+}
+
+
+.section-two
+{
+    width: auto;
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    margin-top: 5em;
+}
+
+.icons-reseau
+{
+    background: rgba(black, 0.5);
+    float: right;
+    margin-right: 1em;
+    margin-top: 3em;
+}
+
+.icons-reseau a
+{
+    color: black;
+    font-size: 1.3em;
+    margin-top: 15px;
+}
+
+
+.label-site
+{
+    margin-top: 3em;
+    margin-left: 3em;
+    z-index: 1;
+}
+
+.label-site h1+h2
+{
+    margin-top: -0.4em;
+}
+
+.icons
+{
+    margin: auto;
+}
+
+.icons i
+{
+    margin-left: 1em;
+    background-color: #1da3c9;
+    color: white;
+    padding: 7px;
+    border-radius: 3em;
+}
+
+.btn-formulaire
+{
+    width: 330px;
+    margin-top: 20px;
+    padding: 20px;
+    background-color: #1da3c9;
+    color: white;
+}
+
+.btn-formulaire a
+{
+    text-decoration: none;
+    padding: 10px;
+    background-color: white;
+    color: black;
+}
